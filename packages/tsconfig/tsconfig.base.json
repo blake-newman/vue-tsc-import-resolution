@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.iterable", "ESNext"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "incremental": true,
+    "sourceMap": true,
+    "pretty": true,
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "resolveJsonModule": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tsconfig",
+  "version": "0.0.0",
+  "description": "Package tsconfig",
+  "author": "Blake Newman <code@blakenewman.dev>",
+  "main": "./tsconfig.base.json",
+  "license": "UNLICENSED",
+  "private": true
+}

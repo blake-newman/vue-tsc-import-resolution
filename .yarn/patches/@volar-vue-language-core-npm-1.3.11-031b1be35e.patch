@@ -1,0 +1,16 @@
+diff --git a/out/utils/localTypes.js b/out/utils/localTypes.js
+index 112aa510d4025880b15b665dbd02a0700bb0c687..09fbffeba8bf8f305997f2ff319b22f0b1e0108e 100644
+--- a/out/utils/localTypes.js
++++ b/out/utils/localTypes.js
+@@ -80,11 +80,6 @@ export type EmitEvent<F, E> =
+ 		(...args: any): any
+ 	} ? (...payload: P) => void
+ 	: unknown | '[Type Warning] Volar could not infer $emit event more than 4 overloads without DefineComponent. see https://github.com/johnsoncodehk/volar/issues/60';
+-export declare function asFunctionalComponent<T, K>(t: T, instance?: K):
+-	T extends (...args: any) => any ? T
+-	: K extends { $props?: infer Props, $slots?: infer Slots, $emit?: infer Emit }
+-		? (props: Props, ctx?: { attrs?: any, expose?: any, slots?: Slots, emit?: Emit }) => JSX.Element & { __ctx?: typeof ctx, __props?: typeof props }
+-		: (_: T) => { __ctx?: { attrs?: undefined, expose?: undefined, slots?: undefined, emit?: undefined }, __props?: T }; // IntrinsicElement
+ export declare function pickEvent<Emit, K, E>(emit: Emit, emitKey: K, event: E): FillingEventArg<
+ 	PickNotAny<
+ 		asFunctionOrAny<E>,

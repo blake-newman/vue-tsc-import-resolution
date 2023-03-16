@@ -1,0 +1,9 @@
+{
+  "name": "correct",
+  "version": "0.0.0",
+  "description": "Package main",
+  "author": "Blake Newman <code@blakenewman.dev>",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "private": true
+}
