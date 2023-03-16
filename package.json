@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "tsc": "yarn vue-tsc --build --verbose"
+    "tsc": "yarn vue-tsc"
   },
   "devDependencies": {
     "tsconfig": "workspace:*",
